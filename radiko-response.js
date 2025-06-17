@@ -4,7 +4,6 @@ if ($response.body) {
 
     body.is_timefree_plus = true;
     body.is_areafree = true;
-    body.is_out = true;
 
     $done({ body: JSON.stringify(body) });
   } catch (e) {
