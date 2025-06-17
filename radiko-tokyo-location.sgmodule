@@ -1,0 +1,2 @@
+[Script]
+radiko-location-rewrite = type=http-request,pattern=https:\/\/api\.radiko\.jp\/apparea\/auth2,requires-body=true,max-size=10000,script-path=https://raw.githubusercontent.com/hyprocritor/surge-radiko/refs/heads/main/radiko-location.js
