@@ -1,6 +1,5 @@
-[Module]
-title = Radiko Tokyo Location Spoofer
-description = 修改 Radiko 请求中的定位信息，将位置伪装为东京（latitude: 35.6895, longitude: 139.6917），用于解锁东京地区服务。
-author = ChatGPT
+#!name=Radiko Tokyo Location Spoofer
+#!desc=修改 Radiko 请求中的定位信息，将位置伪装为东京（latitude: 35.6895, longitude: 139.6917），用于解锁东京地区服务。
+
 [Script]
 radiko-location-rewrite = type=http-request,pattern=https:\/\/api\.radiko\.jp\/apparea\/auth2,requires-body=true,max-size=10000,script-path=https://raw.githubusercontent.com/hyprocritor/surge-radiko/refs/heads/main/radiko-location.js
